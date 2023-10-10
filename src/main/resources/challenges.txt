@@ -1,0 +1,36 @@
+1. **Filtering (Intermediate Operation):**
+    - Filter the list of persons to include only males.
+2. **Mapping (Intermediate Operation):**
+    - Map the list of persons to their names.
+3. **Sorting (Intermediate Operation):**
+    - Sort the list of persons by their income in descending order.
+4. **Distinct (Intermediate Operation):**
+    - Find the distinct genders in the list of persons.
+5. **Limit (Intermediate Operation):**
+    - Limit the list of persons to the first 3.
+6. **Skip (Intermediate Operation):**
+    - Skip the first 2 persons in the list.
+7. **Peek (Intermediate Operation):**
+    - Use peek to print the names of all persons in the list.
+8. **FlatMap (Intermediate Operation):**
+    - Map each person to a stream of characters representing their names.
+9. **Concatenating Streams (Intermediate Operation):**
+    - Create a new stream by concatenating two lists of persons.
+10. **AnyMatch (Terminal Operation):**
+- Check if any person's income is greater than 8000.0.
+1. **AllMatch (Terminal Operation):**
+- Check if all persons are male.
+1. **NoneMatch (Terminal Operation):**
+- Check if none of the persons have zero income.
+1. **Count (Terminal Operation):**
+- Count the number of persons.
+1. **FindFirst (Terminal Operation):**
+- Find the first person in the list.
+1. **FindAny (Terminal Operation):**
+- Find any person in the list.
+
+16 **Max (Terminal Operation):**
+
+- Find the person with the highest income.
+
+17 **Min (Terminal Operation):**
