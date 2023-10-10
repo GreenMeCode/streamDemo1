@@ -1,9 +1,11 @@
+import java.util.Comparator;
 import java.util.List;
 
 public class Solution {
     public static void main(String[] args) {
         System.out.println(malesOnly(Person.persons()));
         names(Person.persons()).forEach(System.out::println);
+        sortByIncome().forEach(System.out::println);
     }
         //Filter the list of person to include only males.
 
@@ -23,5 +25,14 @@ public class Solution {
                 .toList();
         return names;
         }
+
+        // Sort the list of persons by their income in descending order.
+    static List<Person> sortByIncome(){
+        List<Person> sortedList = Person.persons()
+                .stream()
+                .sorted(Comparator.comparing(Person::getIncome))
+                .toList();
+        return sortedList;
     }
+}
 
